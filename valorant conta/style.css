@@ -8,6 +8,9 @@ body{
     background-color: rgb(0, 0, 0);
 
    color:#FA1212;
+    
+   font-size: 13px ;
+   font-weight: 1000;
 
 }
 
@@ -15,13 +18,28 @@ body{
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    
 }
 
 .container{
     height: 1000vh;
+    display: grid;  
+    grid-template-columns:30% 70%;
 }
-.segunda{
-    background-image: url(img/Background\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size:contain;
+.container_botao{
+    background-color: #000000 ;
+    color: #FA1212;
+    border-radius: 3px;
+    padding: 15px;
+    display: block;
+   border: 1px solid white;
+   text-decoration:none ;
+}
+
+.batao_segundario{
+background-color: transparent ;
+}
+.container_aviso{
+    color: white;
+    font-size: 10px;
 }
