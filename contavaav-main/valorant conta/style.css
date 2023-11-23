@@ -8,6 +8,9 @@ body{
     background-color: rgb(0, 0, 0);
 
    color:#FA1212;
+    
+   font-size: 13px ;
+   font-weight: 1000;
 
 }
 
@@ -29,5 +32,20 @@ body{
     border-radius: 3px;
     padding: 15px;
     display: block;
-   
+   border: 1px solid white;
+   text-decoration:none ;
+   margin: 1em  0em 1em 0em ;
 }
+
+.batao_segundario{
+background-color: transparent ;
+
+}   
+.container_aviso{
+    color: white;
+    font-size: 10px;
+}
+
+.texto{
+    margin-bottom: 8em;
+    margin-top: 12em;}
