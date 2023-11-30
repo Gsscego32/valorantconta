@@ -10,7 +10,7 @@ body{
    color:#FA1212;
     
    font-size: 13px ;
-   font-weight: 1000;
+   font-weight: 10;
 
 }
 
@@ -18,11 +18,11 @@ body{
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
-    
+    margin: 0 0 0 0;
 }
 
 .container{
-    height: 1000vh;
+    height: 104vh;
     display: grid;  
     grid-template-columns:30% 70%;
 }
@@ -49,3 +49,22 @@ background-color: transparent ;
 .texto{
     margin-bottom: 8em;
     margin-top: 12em;}
+     
+.secundario_imagem{
+    width:1 ;
+
+}
+.secundario{
+    align-items: center;
+    margin: auto;
+}
+.descricao{
+    color: #FA1212;
+    margin-top: 20em;
+    margin-left: 30em;
+}
+.descicao_texto{
+    color: #FA1212;
+    margin-left: 30em;
+
+}
