@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+
+    background-color: rgb(0, 0, 0);
+
+   color:#FA1212;
+    
+   font-size: 13px ;
+   font-weight: 10;
+
+}
+
+.pricipal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 0 0 0;
+}
+
+.container{
+    height: 104vh;
+    display: grid;  
+    grid-template-columns:30% 70%;
+}
+.container_botao{
+    background-color: #000000 ;
+    color: #FA1212;
+    border-radius: 3px;
+    padding: 15px;
+    display: block;
+   border: 1px solid white;
+   text-decoration:none ;
+   margin: 1em  0em 1em 0em ;
+}
+
+.batao_segundario{
+background-color: transparent ;
+
+}   
+.container_aviso{
+    color: white;
+    font-size: 10px;
+}
+
+.texto{
+    margin-bottom: 8em;
+    margin-top: 12em;}
+     
+.secundario_imagem{
+    width:1 ;
+
+}
+.secundario{
+    background-image: url(img/Background\ \(1\).png);
+    align-items: center;
+    margin: auto;
+}
+.descricao{
+    color: #FA1212;
+    margin-top: 10em;
+    margin-left: 23em;
+    font-size: 26px;
+
+}
+.descicao_texto{
+    color: #FA1212;
+    margin-left: 14em;
+    font-size:23px ;
+
+
+}
+.terceario{
+    background-image: url(img/Background\ \(2\).png);
+   
+    align-items: center;
+    margin: auto;
+}
+.container_descicao{
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.descicao_texto{
+display: inline-block;
+padding-right: 40em;
+margin-top: 4em;
+}
+.tercenario{
+    padding-left: 36em;
+    
+}
